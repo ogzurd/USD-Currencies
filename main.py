@@ -1,8 +1,6 @@
-import datetime
-
-import pandas as pd
 from forex_python.converter import CurrencyRates
 import pandas as pd
+
 c = CurrencyRates()
 
 date = pd.date_range('2021-01-01', '2021-01-10', freq='D')
